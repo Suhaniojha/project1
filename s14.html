@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <title>form</title>
+        <body>
+            <form style="background-color:rgb(206, 32, 32);"></form>
+            <fieldset>
+                <legend>Personal Details</legend>
+                <label for="name">Enter Your Name:</label>
+                <input type="text"id="name"><br><br>
+                <label for="fname">Father's Name:</label>
+                <input type="text"id="fname"><br><br>
+                <label for="email">Provide your e-mail:</label>
+                <input type="text"id="email"><br><br>
+                <p>Gender:</p>
+                <label for="Female">Female</label>
+                <input type="checkbox"id="Female">
+                <label for="Male">Male</label>
+                <input type="checkbox"id="Male"><br><br>
+                <label for="Num">Moble Number:</label>
+                <input type="number"id="Num">
+            </fieldset><br><br>
+            <label for="password" Provided> Your Password</label>
+            <input type="password" id="password"><br><br>
+            <label for="date">D.O.B</label>
+            <input type="date" id="date" min="2000-01-01"><br><br>
+            <label for="file">Select Your File:</label>
+            <input type="file" id="file" required multiple><br><br>
+            <label for="url">Enter URL:</label>
+            <input type="URL" id="url"><br><br>
+            <input type="image"
+            src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg"height="100" width="100"><br><br>
+            <!--image act as submit button -->
+            <label for="courses"> Choose Your Courses:</label>
+            <select id="courses">
+            <option>DSA</option>
+            <option>CSS</option>
+            <option>Python</option>
+            </select><br><br>
+            <input  type="text" list="courses">
+            <datalist id="curses">
+                <option value="DSA"></option>
+                <option value="CSS"></option>
+                <option value="Python"></option>
+            </datalist><br><br>
+            <input type="Submit" value="SUBMIT">
+        </body>
+    </head>
+
+</html>
